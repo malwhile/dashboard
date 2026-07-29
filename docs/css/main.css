@@ -1,0 +1,102 @@
+html, body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    float: left;
+    position: relative;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(40, 40, 40, 0.8);
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    /*background-image: url(../images/wolfgirl.jpg);*/
+    background-size: cover;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+}
+
+.container ol {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container ol .containerTitle {
+    font-size: 20px;
+    margin: 0;
+}
+.container ol .link {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.container ol .item {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.container ol .line {
+    height: 3px;
+}
+
+.s1Title {
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+
+.s1Line {
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733); 
+}
+
+.s2Title {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+
+.s2Line {
+    background-image: linear-gradient(to right, #0072ff, #00c6ff); 
+}
+
+.s3Title {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+
+.s3Line {
+    background-image: linear-gradient(to right, #11998e, #38ef7d); 
+}
+
+.s4Title {
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+
+.s4Line {
+    background-image: linear-gradient(to right, #DD2476, #FF512F); 
+}
+
+
+
